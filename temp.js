@@ -79,7 +79,7 @@ const prisma = require("./prisma/index.ts");
     data: {
       title,
       description,
-      productId,
+      itemId: productId,
       averageStar,
       reviews: {
         create: reviews.map((content) => ({ content: content })),
