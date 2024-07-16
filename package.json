@@ -1,0 +1,23 @@
+{
+  "name": "ali-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "temp.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": ""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^5.16.2",
+    "aliexpress-product-scraper": "^2.0.2",
+    "jsdom": "^24.1.0",
+    "puppeteer": "^22.13.0",
+    "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "prisma": "^5.16.2"
+  }
+}
