@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "temp.js",
-  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": ""
@@ -14,10 +13,7 @@
   "dependencies": {
     "@prisma/client": "^5.16.2",
     "aliexpress-product-scraper": "^2.0.2",
-    "axios": "^1.7.2",
-    "cheerio": "^1.0.0-rc.12",
     "jsdom": "^24.1.0",
-    "node-fetch": "^3.3.2",
     "puppeteer": "^22.13.0",
     "uuid": "^10.0.0"
   },
